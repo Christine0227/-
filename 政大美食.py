@@ -287,15 +287,7 @@ menubutton12.menu = Menu(menubutton12)
 menubutton12["menu"]=menubutton12.menu  
   
 menubutton12.menu.add_checkbutton(label = "隱 Bistro/評價:4.6/西側門/價位:300元以上")
-
-menubutton13 = Menubutton(top, text = "餐酒館")  
-
-menubutton13.grid()  
-
-menubutton13.menu = Menu(menubutton13)  
-  
-menubutton13["menu"]=menubutton13.menu  
-  
-menubutton13.menu.add_checkbutton(label = "李氏兄弟44號餐酒館/評價:4.8/大門/價位:100-300元")
+ 
+menubutton12.menu.add_checkbutton(label = "李氏兄弟44號餐酒館/評價:4.8/大門/價位:100-300元")
 
 top.mainloop()  
